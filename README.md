@@ -9,7 +9,7 @@ Recriação, em **HTML + CSS + Tailwind CSS**, de uma das telas do projeto Finte
 
 ---
 
-##  Sobre a tela
+## Sobre a tela
 
 Tela de criação de conta da fintech, com:
 
@@ -20,31 +20,14 @@ Tela de criação de conta da fintech, com:
 - Aceite dos Termos de Uso e opt-in para dicas financeiras;
 - **Layout 100% responsivo** (mobile, tablet e desktop) construído com Tailwind CSS.
 
-##  Como abrir
+## Como abrir
 
 Basta abrir o arquivo **`index.html`** no navegador (duplo clique).
 O CSS já vem **compilado** em `css/styles.css`, então **não é preciso internet
 nem nenhum passo extra** para visualizar a página.
 
-##  Tecnologias
 
-- **HTML5** semântico
-- **Tailwind CSS v4** (utilitários) — compilado localmente via Tailwind CLI
-- **CSS** separado do HTML em `css/styles.css`
-- Ícones em **SVG inline** (sem dependências externas)
-
-##  Recompilar o CSS (opcional)
-
-O CSS já está pronto. Caso queira regenerá-lo após editar as classes:
-
-```bash
-npm install        # instala o Tailwind CLI (cria a pasta node_modules)
-npm run build      # gera css/styles.css a partir de src/input.css
-# ou, para desenvolvimento com atualização automática:
-npm run watch
-```
-
-##  Estrutura
+## Estrutura
 
 ```
 safecore-invest/
