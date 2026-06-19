@@ -1,0 +1,10 @@
+# Dependências (não versionar — pesado e recriável com "npm install")
+node_modules/
+
+# Logs e arquivos do sistema
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Observação: a pasta css/ (Tailwind compilado) É versionada de propósito,
+# para que o site abra direto pelo index.html, sem precisar buildar.

@@ -1,0 +1,16 @@
+{
+  "name": "safecore-invest",
+  "version": "1.0.0",
+  "description": "Tela de Cadastro de Conta do SafeCore Invest — fintech de controle financeiro pessoal. Projeto FIAP (Fase 3) em HTML, CSS e Tailwind CSS.",
+  "author": "Michel Bernardo (RM 553168)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/styles.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
