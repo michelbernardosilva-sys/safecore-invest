@@ -1,0 +1,11 @@
+# Normaliza finais de linha no repositório (evita avisos LF/CRLF no Windows)
+* text=auto
+
+# Arquivos binários (não normalizar)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
