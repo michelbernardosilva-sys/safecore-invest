@@ -29,8 +29,8 @@
         <div class="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-white/10 blur-2xl"></div>
         <div class="pointer-events-none absolute -bottom-20 -left-10 h-64 w-64 rounded-full bg-brand-400/20 blur-3xl"></div>
 
-        <!-- Logo -->
-        <div class="relative flex items-center gap-3">
+        <!-- Logo (cabeçalho do painel de marca) -->
+        <header class="relative flex items-center gap-3">
           <span class="grid h-11 w-11 place-items-center rounded-xl bg-white/15 ring-1 ring-white/25 backdrop-blur">
             <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
               <path d="M12 3 5 6v5c0 4.5 3 7.7 7 9 4-1.3 7-4.5 7-9V6l-7-3Z" />
@@ -41,7 +41,7 @@
             <p class="text-lg font-bold tracking-tight">SafeCore Invest</p>
             <p class="text-xs text-brand-200">Controle financeiro pessoal</p>
           </div>
-        </div>
+        </header>
 
         <!-- Mensagem central -->
         <div class="relative">
@@ -81,6 +81,9 @@
       <!-- ==================== FORMULÁRIO DE CADASTRO ==================== -->
       <section class="p-6 sm:p-9 lg:p-10">
 
+        <!-- Cabeçalho da seção: marca (no mobile) + título -->
+        <header>
+
         <!-- Marca compacta (apenas no mobile/tablet, onde o painel some) -->
         <div class="mb-6 flex items-center gap-2.5 lg:hidden">
           <span class="grid h-10 w-10 place-items-center rounded-xl bg-brand-600 text-white">
@@ -100,6 +103,7 @@
           </div>
           <a href="#" class="whitespace-nowrap text-sm font-semibold text-brand-600 hover:text-brand-700 hover:underline">Já tem conta? Entrar</a>
         </div>
+        </header>
 
         <!-- Indicador de etapas (stepper) -->
         <nav aria-label="Progresso do cadastro" class="mt-7">
